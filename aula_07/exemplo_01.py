@@ -32,3 +32,13 @@
 # soma = 0 # da forma como está aqui essa variável não será manipulada então o programa não realizará a adição esperada 
 # somar(4, 5)
 # print (f'O valor da variável soma é {soma}')
+
+
+#BOAS PRÁTICAS CADA FUNÇÃO FAZ UMA COISA
+def somar(a, b):
+    soma = a + b
+    #print(soma)
+    return soma # podeia usa somente 's' pra facilitar o entendimento pois o RETURN leva o python volte para o início isola o que veio antes do return
+
+soma = somar(4, 5)
+print (f'O valor da variável soma é {soma}')
