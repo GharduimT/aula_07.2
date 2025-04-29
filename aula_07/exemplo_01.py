@@ -24,3 +24,11 @@
 
 # nome = input('Informe o nome: ')
 # saudacao(nome)
+
+# def somar(a, b):
+#     s = a + b
+#     print(soma)
+
+# soma = 0 # da forma como está aqui essa variável não será manipulada então o programa não realizará a adição esperada 
+# somar(4, 5)
+# print (f'O valor da variável soma é {soma}')
