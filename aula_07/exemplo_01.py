@@ -35,10 +35,25 @@
 
 
 #BOAS PRÁTICAS CADA FUNÇÃO FAZ UMA COISA
-def somar(a, b):
-    soma = a + b
-    #print(soma)
-    return soma # podeia usa somente 's' pra facilitar o entendimento pois o RETURN leva o python volte para o início isola o que veio antes do return
+# def somar(a, b):
+#     soma = a + b
+#     #print(soma)
+#     return soma # podeia usa somente 's' pra facilitar o entendimento pois o RETURN leva o python volte para o início iso 
 
-soma = somar(4, 5)
-print (f'O valor da variável soma é {soma}')
+# soma = somar(4, 5)
+# print (f'O valor da variável soma é {soma}')
+
+
+#o programa vai fazer a leitura entender que precisar retornar / ao entender que a função existe vai para a segunda parte
+
+def somar_numeros(x, y): # abre a função / importante colocar sempre a função no começo do código
+    s = x + y
+    return s
+#obriga o usuário a digitar 3x o que está em n1 e n2 números
+
+for i in range(3): 
+    n1 = int(input('Informe o 1º número: '))
+    n2 = int(input('Informe o 2º número: '))
+
+    soma = somar_numeros(n1, n2)
+    print(soma)
