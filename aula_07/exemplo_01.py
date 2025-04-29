@@ -19,3 +19,8 @@
 # print('ANÁLISE DE DADOS')
 
 
+# def saudacao(nome):
+#     print(f'Olá {nome}!')
+
+# nome = input('Informe o nome: ')
+# saudacao(nome)
