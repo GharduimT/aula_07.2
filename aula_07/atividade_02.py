@@ -14,7 +14,7 @@
     # nesse caso informar o valor, calculado por quilo, da multa 
     # do contrário informar que não foi ultrapasado o peso limite
 
-# peso = float(input(f'Informe o peso da pescado em quilos: '))
+# peso = float(input(f'Informe o peso do que foi pescado em quilos: '))
 #     '''abaixo: se peso for maior que xyz, (saiba que excesso é = peso - 100 e multa é = excesso *4) imprima... se não imprima...'''
 # if peso > 100:
 #     excesso = peso - 100
@@ -41,5 +41,17 @@ Eu só vou apresentar as variáveis depois estabelecer def, então em def eu me 
 '''
 def calc_multa(peso):
     if peso > 100:
-        return (peso - 100 * 4)  #se peso for maior que 100 então retorne e e calcule peso - 100 e multplique esse resultado por 4'
+        return (peso - 100) * 4  #se peso for maior que 100 então retorne e e calcule peso - 100 e multplique esse resultado por 4'
     return 0
+#apresentando variáveis
+#1ª Com input do usuário informando o peso
+peso = float(input('Informe o peso do que foi pescado em quilos: '))
+#sem input somente definindo o calculo  que a variável vai realizar quando chamada
+multa = calc_multa(peso) #ou seja multa é igual ao que foi definido e ensnado no começo.
+
+#processamento e resultados
+if multa:
+    print(f'peso máximo excedido, sua multa será de:R$ {multa:.2f}') #insere valor da variavel multa,explica que haverá uma formatação do resultado, como formatar esse resultado (duas casas decimais), explica que é um float
+else:
+    print('peso limite NÃO excedido, NÃO há multa')
+
