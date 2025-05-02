@@ -6,7 +6,9 @@
 
 # multa = 4
 
-peso = int(input('Informe o peso: '))
+# peso = int(input('Informe o peso: '))
 
-if peso > 100:
-    multa = peso *0,4
+# if peso > 100:
+#     multa = peso *0,4
+
+'''Tentativa de resolver o problema em casa'''
