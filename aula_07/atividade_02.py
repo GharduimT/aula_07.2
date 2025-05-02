@@ -41,7 +41,7 @@ Eu só vou apresentar as variáveis depois estabelecer def, então em def eu me 
 '''
 def calc_multa(peso):
     if peso > 100:
-        return (peso - 100) * 4  #se peso for maior que 100 então retorne e e calcule peso - 100 e multplique esse resultado por 4'
+        return (peso - 100 * 4)  #se peso for maior que 100 então retorne e e calcule peso - 100 e multplique esse resultado por 4'
     return 0
 #apresentando variáveis
 #1ª Com input do usuário informando o peso
@@ -51,7 +51,7 @@ multa = calc_multa(peso) #ou seja multa é igual ao que foi definido e ensnado n
 
 #processamento e resultados
 if multa:
-    print(f'peso máximo excedido, sua multa será de:R$ {multa:.2f}') #insere valor da variavel multa,explica que haverá uma formatação do resultado, como formatar esse resultado (duas casas decimais), explica que é um float
+    print(f'peso máximo excedido, sua multa será de:R$ {multa:.2f}') #insere valor da variavel multa,explica que haverá uma formatação do resultado, como formatar esse resultado (duas casas decimais), explica que git é um float
 else:
     print('peso limite NÃO excedido, NÃO há multa')
 
