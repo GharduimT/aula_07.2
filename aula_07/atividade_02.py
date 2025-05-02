@@ -3,11 +3,8 @@
 
 
 # limite = 100
-
 # multa = 4
-
 # peso = int(input('Informe o peso: '))
-
 # if peso > 100:
 #     multa = peso *0,4
 
