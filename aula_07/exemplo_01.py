@@ -5,9 +5,6 @@
 #rotina - fazem sentido pra algo que eu vou ter qque fazer toda hora (tirar media ex)
 
 
-
-
-
 # def mostrar_linha():
 #     print(30*"=") # VAI ESCREVER 30X O QUESTÁ DENTRO DA STRING # 
 
@@ -38,7 +35,7 @@
 # def somar(a, b):
 #     soma = a + b
 #     #print(soma)
-#     return soma # podeia usa somente 's' pra facilitar o entendimento pois o RETURN leva o python volte para o início iso 
+#     return soma # poderia usa somente 's' pra facilitar o entendimento pois o RETURN leva o python volte para o início iso 
 
 # soma = somar(4, 5)
 # print (f'O valor da variável soma é {soma}')
@@ -56,4 +53,4 @@ for i in range(3):
     n2 = int(input('Informe o 2º número: '))
 
     soma = somar_numeros(n1, n2)
-    print(soma)
+print(soma)
